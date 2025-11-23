@@ -1,0 +1,101 @@
+﻿@model List<TallerMvcNet.Models.Note>
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">📝 Gestor de Notas</h2>
+
+    <div class="card bg-light mb-4">
+        <div class="card-body">
+            <form method="get" action="@Url.Action("Index")" class="row g-2 align-items-center">
+                <div class="col-md-6">
+                    <input type="text" name="searchQuery" class="form-control"
+                           placeholder="🔍 Buscar en título o contenido..."
+                           value="@ViewBag.CurrentSearch" />
+                </div>
+                <div class="col-md-4">
+                    <select name="categoryFilter" class="form-select">
+                        <option value="Todas">Todas las Categorías</option>
+                        <option value="Trabajo">Trabajo</option>
+                        <option value="Personal">Personal</option>
+                        <option value="Ideas">Ideas</option>
+                        <option value="Recordatorios">Recordatorios</option>
+                        @if (!string.IsNullOrEmpty(ViewBag.CurrentCategory))
+                        {
+                            <option value="@ViewBag.CurrentCategory" selected hidden>@ViewBag.CurrentCategory</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary w-100">Filtrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card border-primary shadow-sm h-100">
+                <div class="card-header bg-primary text-white">Nueva Nota</div>
+                <div class="card-body">
+                    <form asp-action="Add" method="post">
+                        <div class="mb-2">
+                            <label>Título</label>
+                            <input name="Title" class="form-control" required />
+                        </div>
+                        <div class="mb-2">
+                            <label>Categoría</label>
+                            <select name="Category" class="form-select">
+                                <option value="Trabajo">Trabajo</option>
+                                <option value="Personal">Personal</option>
+                                <option value="Ideas">Ideas</option>
+                                <option value="Recordatorios">Recordatorios</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label>Contenido</label>
+                            <textarea name="Content" class="form-control" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success w-100">Guardar Nota</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <div class="row">
+                @if (Model.Count == 0)
+                {
+                    <div class="col-12 text-center text-muted mt-5">
+                        <h4>No se encontraron notas 📭</h4>
+                        <p>Intenta cambiar los filtros o agrega una nueva.</p>
+                    </div>
+                }
+                else
+                {
+                    @foreach (var note in Model)
+                    {
+                        <div class="col-md-6 mb-3">
+                            <div class="card h-100 shadow-sm" style="border-left: 5px solid #0d6efd;">
+                                <div class="card-body">
+                                    <h5 class="card-title d-flex justify-content-between">
+                                        @note.Title
+                                        <small class="text-muted" style="font-size: 0.6em;">@note.Category</small>
+                                    </h5>
+                                    <p class="card-text">@note.Content</p>
+                                    <p class="card-text"><small class="text-muted">@note.Date.ToShortDateString()</small></p>
+
+                                    <a href="@Url.Action("Delete", new { id = note.Id })"
+                                       class="btn btn-sm btn-outline-danger w-100"
+                                       onclick="return confirm('¿Seguro que quieres borrar esta nota?');">
+                                        Eliminar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>

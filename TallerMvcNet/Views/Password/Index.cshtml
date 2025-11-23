@@ -1,0 +1,49 @@
+﻿@model TallerMvcNet.Models.PasswordModel
+
+<div class="container mt-5" style="max-width: 600px;">
+    <div class="card border-primary mb-3">
+        <div class="card-header bg-primary text-white">
+            <h3>🔐 Generador de Contraseñas</h3>
+        </div>
+        <div class="card-body">
+            <form asp-action="Generate" method="post">
+
+                <div class="mb-3">
+                    <label class="form-label">Longitud de la contraseña:</label>
+                    <input asp-for="Length" type="number" min="4" max="50" class="form-control" />
+                </div>
+
+                <div class="mb-3 form-check">
+                    <input asp-for="IncludeLowercase" class="form-check-input" />
+                    <label class="form-check-label">Incluir Minúsculas (a-z)</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input asp-for="IncludeUppercase" class="form-check-input" />
+                    <label class="form-check-label">Incluir Mayúsculas (A-Z)</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input asp-for="IncludeNumbers" class="form-check-input" />
+                    <label class="form-check-label">Incluir Números (0-9)</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input asp-for="IncludeSymbols" class="form-check-input" />
+                    <label class="form-check-label">Incluir Símbolos (!@@#$)</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">Generar Contraseña</button>
+            </form>
+
+            <hr />
+
+            @if (!string.IsNullOrEmpty(Model.GeneratedPassword))
+            {
+                <div class="alert alert-success text-center">
+                    <label>Tu nueva contraseña es:</label>
+                    <h2 class="text-break" style="font-family: monospace; letter-spacing: 2px;">
+                        @Model.GeneratedPassword
+                    </h2>
+                </div>
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,666 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projects_class\\TallerMvcNet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\views\\memorygame\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\views\\memorygame\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\controllers\\memorygamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\controllers\\memorygamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\models\\scorerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\models\\scorerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\views\\stopwatch\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\views\\stopwatch\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\controllers\\stopwatchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\controllers\\stopwatchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\models\\timerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\models\\timerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\views\\surveys\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\views\\surveys\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\views\\surveys\\vote.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\views\\surveys\\vote.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\views\\surveys\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\views\\surveys\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\controllers\\surveyscontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\controllers\\surveyscontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\models\\survey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\models\\survey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\views\\recipes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\views\\recipes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\controllers\\recipescontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\controllers\\recipescontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\tallermvcnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\tallermvcnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\controllers\\calendarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\controllers\\calendarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\views\\calendar\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\views\\calendar\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\views\\calendar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\views\\calendar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\models\\calendarevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\models\\calendarevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\views\\notes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\views\\notes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\controllers\\notescontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\controllers\\notescontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\views\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\views\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\views\\password\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\views\\password\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\views\\expenses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\views\\expenses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\controllers\\passwordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\controllers\\passwordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\models\\passwordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\models\\passwordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\views\\tips\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\views\\tips\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\controllers\\tipscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\controllers\\tipscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\models\\tipmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\models\\tipmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\views\\tasks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\views\\tasks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|c:\\projects_class\\tallermvcnet\\tallermvcnet\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{148C9751-5225-43D2-B673-49F8AAD7CF63}|TallerMvcNet\\TallerMvcNet.csproj|solutionrelative:tallermvcnet\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 34,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\MemoryGame\\Index.cshtml",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Views\\MemoryGame\\Index.cshtml",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\MemoryGame\\Index.cshtml",
+              "RelativeToolTip": "TallerMvcNet\\Views\\MemoryGame\\Index.cshtml",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAUwNUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T02:42:19.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MemoryGameController.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\MemoryGameController.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Controllers\\MemoryGameController.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\MemoryGameController.cs",
+              "RelativeToolTip": "TallerMvcNet\\Controllers\\MemoryGameController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T02:41:37.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScoreRecord.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\ScoreRecord.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Models\\ScoreRecord.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\ScoreRecord.cs",
+              "RelativeToolTip": "TallerMvcNet\\Models\\ScoreRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T02:41:02.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Stopwatch\\Index.cshtml",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Views\\Stopwatch\\Index.cshtml",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Stopwatch\\Index.cshtml",
+              "RelativeToolTip": "TallerMvcNet\\Views\\Stopwatch\\Index.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAUwHQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T02:37:02.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StopwatchController.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\StopwatchController.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Controllers\\StopwatchController.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\StopwatchController.cs",
+              "RelativeToolTip": "TallerMvcNet\\Controllers\\StopwatchController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T02:36:16.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TimeRecord.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\TimeRecord.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Models\\TimeRecord.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\TimeRecord.cs",
+              "RelativeToolTip": "TallerMvcNet\\Models\\TimeRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T02:35:26.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Results.cshtml",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Surveys\\Results.cshtml",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Views\\Surveys\\Results.cshtml",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Surveys\\Results.cshtml",
+              "RelativeToolTip": "TallerMvcNet\\Views\\Surveys\\Results.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvyYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T02:16:41.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Vote.cshtml",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Surveys\\Vote.cshtml",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Views\\Surveys\\Vote.cshtml",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Surveys\\Vote.cshtml",
+              "RelativeToolTip": "TallerMvcNet\\Views\\Surveys\\Vote.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwCAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T02:15:49.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Surveys\\Index.cshtml",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Views\\Surveys\\Index.cshtml",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Surveys\\Index.cshtml",
+              "RelativeToolTip": "TallerMvcNet\\Views\\Surveys\\Index.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwCoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T02:15:08.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SurveysController1.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\SurveysController1.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Controllers\\SurveysController1.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\SurveysController1.cs",
+              "RelativeToolTip": "TallerMvcNet\\Controllers\\SurveysController1.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAUwFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T02:14:17.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Survey.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\Survey.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Models\\Survey.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\Survey.cs",
+              "RelativeToolTip": "TallerMvcNet\\Models\\Survey.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T02:13:33.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Recipes\\Index.cshtml",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Views\\Recipes\\Index.cshtml",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Recipes\\Index.cshtml",
+              "RelativeToolTip": "TallerMvcNet\\Views\\Recipes\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAUwEEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T01:57:21.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TallerMvcNet",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\TallerMvcNet.csproj",
+              "RelativeDocumentMoniker": "TallerMvcNet\\TallerMvcNet.csproj",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\TallerMvcNet.csproj",
+              "RelativeToolTip": "TallerMvcNet\\TallerMvcNet.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-23T01:52:32.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RecipesController1.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\RecipesController1.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Controllers\\RecipesController1.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\RecipesController1.cs",
+              "RelativeToolTip": "TallerMvcNet\\Controllers\\RecipesController1.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAUwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T01:56:29.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\Recipe.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Models\\Recipe.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\Recipe.cs",
+              "RelativeToolTip": "TallerMvcNet\\Models\\Recipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T01:50:17.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Calendar\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Views\\Calendar\\Edit.cshtml",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Calendar\\Edit.cshtml",
+              "RelativeToolTip": "TallerMvcNet\\Views\\Calendar\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAUwDIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T01:38:27.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Calendar\\Index.cshtml",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Views\\Calendar\\Index.cshtml",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Calendar\\Index.cshtml",
+              "RelativeToolTip": "TallerMvcNet\\Views\\Calendar\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwDsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T01:35:28.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CalendarController.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\CalendarController.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Controllers\\CalendarController.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\CalendarController.cs",
+              "RelativeToolTip": "TallerMvcNet\\Controllers\\CalendarController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T01:34:41.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CalendarEvent.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\CalendarEvent.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Models\\CalendarEvent.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\CalendarEvent.cs",
+              "RelativeToolTip": "TallerMvcNet\\Models\\CalendarEvent.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T01:33:47.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Notes\\Index.cshtml",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Views\\Notes\\Index.cshtml",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Notes\\Index.cshtml",
+              "RelativeToolTip": "TallerMvcNet\\Views\\Notes\\Index.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAUwGQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T01:20:54.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NotesController1.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\NotesController1.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Controllers\\NotesController1.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\NotesController1.cs",
+              "RelativeToolTip": "TallerMvcNet\\Controllers\\NotesController1.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAUwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T01:20:04.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Note.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\Note.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Models\\Note.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\Note.cs",
+              "RelativeToolTip": "TallerMvcNet\\Models\\Note.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T01:19:34.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Bookings\\Index.cshtml",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Views\\Bookings\\Index.cshtml",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Bookings\\Index.cshtml",
+              "RelativeToolTip": "TallerMvcNet\\Views\\Bookings\\Index.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAUwFQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T01:12:38.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "TallerMvcNet\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAUwEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T01:11:27.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Models\\Reservation.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\Reservation.cs",
+              "RelativeToolTip": "TallerMvcNet\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T01:10:46.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Expenses\\Index.cshtml",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Views\\Expenses\\Index.cshtml",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Expenses\\Index.cshtml",
+              "RelativeToolTip": "TallerMvcNet\\Views\\Expenses\\Index.cshtml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAUwGEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T01:03:04.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ExpensesController.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\ExpensesController.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Controllers\\ExpensesController.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\ExpensesController.cs",
+              "RelativeToolTip": "TallerMvcNet\\Controllers\\ExpensesController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAUwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T01:02:14.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\Expense.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Models\\Expense.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\Expense.cs",
+              "RelativeToolTip": "TallerMvcNet\\Models\\Expense.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T01:00:24.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Password\\Index.cshtml",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Views\\Password\\Index.cshtml",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Password\\Index.cshtml",
+              "RelativeToolTip": "TallerMvcNet\\Views\\Password\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T00:44:04.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PasswordController.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\PasswordController.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Controllers\\PasswordController.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\PasswordController.cs",
+              "RelativeToolTip": "TallerMvcNet\\Controllers\\PasswordController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T00:42:49.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PasswordModel.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\PasswordModel.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Models\\PasswordModel.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\PasswordModel.cs",
+              "RelativeToolTip": "TallerMvcNet\\Models\\PasswordModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T00:28:25.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Tips\\Index.cshtml",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Views\\Tips\\Index.cshtml",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Tips\\Index.cshtml",
+              "RelativeToolTip": "TallerMvcNet\\Views\\Tips\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T00:20:50.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TipsController.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\TipsController.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Controllers\\TipsController.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\TipsController.cs",
+              "RelativeToolTip": "TallerMvcNet\\Controllers\\TipsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T00:19:26.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TipModel.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\TipModel.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Models\\TipModel.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\TipModel.cs",
+              "RelativeToolTip": "TallerMvcNet\\Models\\TipModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T00:17:41.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TallerMvcNet\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T00:07:27.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Tasks\\Index.cshtml",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Views\\Tasks\\Index.cshtml",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Views\\Tasks\\Index.cshtml",
+              "RelativeToolTip": "TallerMvcNet\\Views\\Tasks\\Index.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwCQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T00:06:32.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "TallerMvcNet\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T00:03:40.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "TallerMvcNet\\Models\\TaskItem.cs",
+              "ToolTip": "C:\\projects_class\\TallerMvcNet\\TallerMvcNet\\Models\\TaskItem.cs",
+              "RelativeToolTip": "TallerMvcNet\\Models\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T00:01:32.749Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

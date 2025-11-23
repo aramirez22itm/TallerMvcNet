@@ -1,0 +1,39 @@
+﻿@model TallerMvcNet.Models.Survey
+
+<div class="container mt-5" style="max-width: 600px;">
+    <div class="card shadow border-info">
+        <div class="card-header bg-info text-white">
+            <h4>📈 Resultados: @Model.Question</h4>
+        </div>
+        <div class="card-body">
+            @{
+                // Calculamos el total de votos para sacar porcentajes
+                int totalVotes = Model.Options.Sum(o => o.Votes);
+            }
+
+            <p class="text-end text-muted">Total de votos: <strong>@totalVotes</strong></p>
+
+            @foreach (var option in Model.Options)
+            {
+                // Cálculo matemático simple para el porcentaje
+                double percentage = totalVotes > 0 ? (double)option.Votes / totalVotes * 100 : 0;
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between">
+                        <strong>@option.Text</strong>
+                        <span>@option.Votes votos (@Math.Round(percentage, 1)%)</span>
+                    </div>
+                    <div class="progress" style="height: 25px;">
+                        <div class="progress-bar bg-primary" role="progressbar"
+                             style="width: @percentage.ToString().Replace(",", ".")%;">
+                        </div>
+                    </div>
+                </div>
+            }
+
+            <div class="mt-4 text-center">
+                <a href="@Url.Action("Index")" class="btn btn-secondary">Volver a Encuestas</a>
+            </div>
+        </div>
+    </div>
+</div>

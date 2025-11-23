@@ -1,0 +1,51 @@
+﻿@model TallerMvcNet.Models.CalendarEvent
+
+<div class="container mt-5" style="max-width: 600px;">
+    <div class="card shadow">
+        <div class="card-header bg-warning text-dark">
+            <h4>✏️ Editando: @Model.Title</h4>
+        </div>
+        <div class="card-body">
+            <form asp-action="Update" method="post">
+                <input type="hidden" asp-for="Id" />
+
+                <div class="mb-3">
+                    <label>Título</label>
+                    <input asp-for="Title" class="form-control" required />
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col">
+                        <label>Fecha</label>
+                        <input asp-for="Date" type="date" class="form-control" />
+                    </div>
+                    <div class="col">
+                        <label>Hora</label>
+                        <input asp-for="Time" type="time" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label>Recordatorio (minutos antes)</label>
+                    <select asp-for="ReminderMinutes" class="form-select">
+                        <option value="0">Sin recordatorio</option>
+                        <option value="15">15 minutos</option>
+                        <option value="30">30 minutos</option>
+                        <option value="60">1 hora</option>
+                        <option value="1440">1 día</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label>Detalles / Notas</label>
+                    <textarea asp-for="Details" class="form-control" rows="3"></textarea>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <a href="@Url.Action("Index")" class="btn btn-secondary">Cancelar</a>
+                    <button type="submit" class="btn btn-success">Guardar Cambios</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

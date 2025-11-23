@@ -1,0 +1,37 @@
+﻿@model List<TallerMvcNet.Models.TaskItem>
+
+<div class="container mt-4">
+    <h2>📝 Lista de Tareas</h2>
+
+    <form asp-action="Add" method="post" class="input-group mb-3">
+        <input type="text" name="text" class="form-control" placeholder="Nueva tarea..." required />
+        <button type="submit" class="btn btn-primary">Agregar</button>
+    </form>
+
+    <ul class="list-group">
+        @if (Model.Count == 0)
+        {
+            <li class="list-group-item text-muted">No hay tareas pendientes. ¡Agrega una!</li>
+        }
+        else
+        {
+            @foreach (var task in Model)
+            {
+                <li class="list-group-item d-flex justify-content-between align-items-center"
+                    style="@(task.IsCompleted ? "background-color: #f8f9fa;" : "")">
+
+                    <span style="@(task.IsCompleted ? "text-decoration: line-through; color: gray;" : "")">
+                        @task.Text
+                    </span>
+
+                    <div>
+                        <a href="@Url.Action("Toggle", new { id = task.Id })" class="btn btn-sm @(task.IsCompleted ? "btn-warning" : "btn-success")">
+                            @(task.IsCompleted ? "Desmarcar" : "Completar")
+                        </a>
+                        <a href="@Url.Action("Delete", new { id = task.Id })" class="btn btn-sm btn-danger">Eliminar</a>
+                    </div>
+                </li>
+            }
+        }
+    </ul>
+</div>

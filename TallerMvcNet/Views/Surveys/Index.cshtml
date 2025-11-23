@@ -1,0 +1,43 @@
+﻿@model List<TallerMvcNet.Models.Survey>
+
+<div class="container mt-4">
+    <h2 class="text-center">📊 Plataforma de Encuestas</h2>
+
+    <div class="card my-4 border-primary">
+        <div class="card-header bg-primary text-white">Crear Nueva Encuesta</div>
+        <div class="card-body">
+            <form asp-action="Create" method="post">
+                <div class="mb-3">
+                    <label>Pregunta:</label>
+                    <input name="question" class="form-control" placeholder="Ej: ¿Qué lenguaje prefieres?" required />
+                </div>
+                <div class="mb-3">
+                    <label>Opciones (separadas por coma):</label>
+                    <input name="optionsString" class="form-control" placeholder="Ej: C#, Java, Python" required />
+                </div>
+                <button type="submit" class="btn btn-primary">Crear Encuesta</button>
+            </form>
+        </div>
+    </div>
+
+    <hr />
+
+    <h3>Encuestas Disponibles</h3>
+    <div class="list-group">
+        @if (Model.Count == 0)
+        {
+            <p>No hay encuestas activas.</p>
+        }
+
+        @foreach (var survey in Model)
+        {
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">@survey.Question</h5>
+                <div>
+                    <a href="@Url.Action("Vote", new { id = survey.Id })" class="btn btn-success">Votar</a>
+                    <a href="@Url.Action("Results", new { id = survey.Id })" class="btn btn-outline-info">Ver Resultados</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>

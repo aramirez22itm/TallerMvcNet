@@ -1,0 +1,37 @@
+﻿@model TallerMvcNet.Models.TipModel
+
+<div class="container mt-5" style="max-width: 500px;">
+    <div class="card shadow">
+        <div class="card-header bg-success text-white text-center">
+            <h3>💰 Calculadora de Propinas</h3>
+        </div>
+        <div class="card-body">
+            <form asp-action="Calculate" method="post">
+
+                <div class="mb-3">
+                    <label class="form-label">Monto de la Cuenta ($):</label>
+                    <input asp-for="BillAmount" type="number" step="0.01" class="form-control" required />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Porcentaje de Propina:</label>
+                    <select asp-for="TipPercentage" class="form-select">
+                        <option value="10">10% - Normal</option>
+                        <option value="15">15% - Bueno</option>
+                        <option value="20">20% - Excelente</option>
+                        <option value="25">25% - Generoso</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-success w-100">Calcular</button>
+            </form>
+
+            <hr />
+
+            <div class="alert alert-info text-center">
+                <h5>Propina: <strong>$@Model.TipAmount.ToString("0.00")</strong></h5>
+                <h4>Total a Pagar: <strong>$@Model.TotalAmount.ToString("0.00")</strong></h4>
+            </div>
+        </div>
+    </div>
+</div>

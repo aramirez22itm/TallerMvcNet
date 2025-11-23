@@ -1,0 +1,66 @@
+﻿@model List<TallerMvcNet.Models.Recipe>
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">🍳 Buscador de Recetas</h2>
+
+    <div class="card p-3 mb-4 bg-light shadow-sm">
+        <form method="get" action="@Url.Action("Index")" class="row g-3 align-items-end">
+            <div class="col-md-4">
+                <label class="form-label fw-bold">Categoría:</label>
+                <select name="category" class="form-select">
+                    <option value="Todas">Todas</option>
+                    <option value="Italiana">Italiana</option>
+                    <option value="Mexicana">Mexicana</option>
+                    <option value="Asiática">Asiática</option>
+                    <option value="Saludable">Saludable</option>
+                </select>
+            </div>
+            <div class="col-md-5">
+                <label class="form-label fw-bold">Ingrediente clave:</label>
+                <input type="text" name="ingredient" class="form-control"
+                       placeholder="Ej: pollo, queso..." value="@ViewBag.CurrentIngredient" />
+            </div>
+            <div class="col-md-3">
+                <button type="submit" class="btn btn-primary w-100">🔍 Buscar Receta</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="row">
+        @if (Model.Count == 0)
+        {
+            <div class="col-12 text-center text-muted mt-5">
+                <h4>No encontramos recetas con esos ingredientes 🥗</h4>
+            </div>
+        }
+        else
+        {
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-header text-white @(item.Category == "Saludable" ? "bg-success" : "bg-warning")">
+                            <span class="badge bg-light text-dark float-end">@item.Category</span>
+                            <h5 class="mb-0 text-dark">@item.Name</h5>
+                        </div>
+
+                        <div class="card-body">
+                            <p class="mb-2"><strong>⏱️ Tiempo:</strong> @item.TimeMinutes min</p>
+                            <p class="mb-3">
+                                <strong>🛒 Ingredientes:</strong><br />
+                                <span class="text-muted fst-italic">@item.Ingredients</span>
+                            </p>
+
+                            <div class="d-grid gap-2">
+                                <a href="@Url.Action("ToggleSave", new { id = item.Id })"
+                                   class="btn @(item.IsSaved ? "btn-danger" : "btn-outline-danger")">
+                                    @(item.IsSaved ? "❤️ Guardada en Favoritos" : "🤍 Guardar")
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
