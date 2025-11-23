@@ -10,13 +10,13 @@ namespace TallerMvcNet.Controllers
     {
         private static List<Survey> _surveys = new List<Survey>();
 
-        // 1. LISTA DE ENCUESTAS
+        // LISTA DE ENCUESTAS
         public IActionResult Index()
         {
             return View(_surveys);
         }
 
-        // 2. CREAR ENCUESTA (Recibe las opciones como texto separado por comas)
+        // CREAR ENCUESTA
         [HttpPost]
         public IActionResult Create(string question, string optionsString)
         {
@@ -28,12 +28,12 @@ namespace TallerMvcNet.Controllers
                     Question = question
                 };
 
-                // TRUCO: Cortamos el texto por cada coma ',' para crear las opciones
+                // Se separa el texto por cada coma ',' para crear las opciones
                 var optionTexts = optionsString.Split(',');
 
                 foreach (var text in optionTexts)
                 {
-                    // Limpiamos espacios en blanco y agregamos
+                    // Limpia espacios en blanco y agregamos
                     if (!string.IsNullOrWhiteSpace(text))
                     {
                         newSurvey.Options.Add(new SurveyOption { Text = text.Trim(), Votes = 0 });
@@ -45,7 +45,7 @@ namespace TallerMvcNet.Controllers
             return RedirectToAction("Index");
         }
 
-        // 3. PANTALLA PARA VOTAR (GET)
+        // PANTALLA PARA VOTAR 
         public IActionResult Vote(int id)
         {
             var survey = _surveys.FirstOrDefault(s => s.Id == id);
@@ -54,7 +54,7 @@ namespace TallerMvcNet.Controllers
             return View(survey);
         }
 
-        // 4. GUARDAR EL VOTO (POST)
+        // GUARDAR EL VOTO 
         [HttpPost]
         public IActionResult SubmitVote(int surveyId, string selectedOption)
         {
@@ -64,14 +64,14 @@ namespace TallerMvcNet.Controllers
                 var option = survey.Options.FirstOrDefault(o => o.Text == selectedOption);
                 if (option != null)
                 {
-                    option.Votes++; // ¡Sumamos un voto!
+                    option.Votes++; 
                 }
             }
-            // Después de votar, te llevamos a ver los resultados
+            // Después de votar, se muestran los resultados
             return RedirectToAction("Results", new { id = surveyId });
         }
 
-        // 5. VER RESULTADOS
+        // VER RESULTADOS
         public IActionResult Results(int id)
         {
             var survey = _surveys.FirstOrDefault(s => s.Id == id);

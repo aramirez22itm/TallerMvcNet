@@ -8,6 +8,6 @@
 
         // Resultados
         public decimal TipAmount { get; set; } // Monto de la propina
-        public decimal TotalAmount { get; set; } // Total final
+        public decimal TotalAmount { get; set; } // Total a pagar
     }
 }

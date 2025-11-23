@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TallerMvcNet.Models;
-using System.Linq; // Necesario para las búsquedas
+using System.Linq; // Necesario para búsquedas
 
 namespace TallerMvcNet.Controllers
 {
@@ -9,22 +9,22 @@ namespace TallerMvcNet.Controllers
         // Almacén de notas en memoria
         private static List<Note> _notes = new List<Note>();
 
-        // GET: Muestra las notas (y aplica filtros si los hay)
+        // GET: Muestra las notas y aplica filtros si los hay
         public IActionResult Index(string searchQuery, string categoryFilter)
         {
             // Empezamos con TODAS las notas
             var results = _notes.AsQueryable();
 
-            // 1. Si el usuario seleccionó una categoría, filtramos
+            // Si el usuario selecciona una categoría, se filtra
             if (!string.IsNullOrEmpty(categoryFilter) && categoryFilter != "Todas")
             {
                 results = results.Where(n => n.Category == categoryFilter);
             }
 
-            // 2. Si el usuario escribió algo en el buscador, filtramos por título O contenido
+            // Si el usuario escribe algo en el buscador, se filtra por título O contenido
             if (!string.IsNullOrEmpty(searchQuery))
             {
-                // Convertimos a minúsculas para que no importe si escriben mayúsculas o minúsculas
+                // Se Convierte a minúsculas para que no importe si escriben mayúsculas o minúsculas
                 string query = searchQuery.ToLower();
                 results = results.Where(n => n.Title.ToLower().Contains(query) ||
                                              n.Content.ToLower().Contains(query));
@@ -42,7 +42,7 @@ namespace TallerMvcNet.Controllers
         [HttpPost]
         public IActionResult Add(Note note)
         {
-            // Asignamos ID y Fecha automática
+            // Se Asigna ID y Fecha automática
             note.Id = _notes.Count + 1;
             note.Date = DateTime.Now;
 
@@ -50,7 +50,7 @@ namespace TallerMvcNet.Controllers
             return RedirectToAction("Index");
         }
 
-        // GET: Elimina una nota
+        // Elimina una nota
         public IActionResult Delete(int id)
         {
             var note = _notes.FirstOrDefault(n => n.Id == id);

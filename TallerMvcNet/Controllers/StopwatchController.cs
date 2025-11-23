@@ -13,7 +13,7 @@ namespace TallerMvcNet.Controllers
 
         public IActionResult Index()
         {
-            // Mostramos los tiempos ordenados del más reciente al más antiguo
+            // Se Muestran los tiempos ordenados del más reciente al más antiguo
             return View(_records.OrderByDescending(r => r.Date).ToList());
         }
 
@@ -33,7 +33,7 @@ namespace TallerMvcNet.Controllers
             return RedirectToAction("Index");
         }
 
-        // Acción para borrar el historial si quieres limpiar
+        // Acción para borrar el historial
         public IActionResult ClearHistory()
         {
             _records.Clear();

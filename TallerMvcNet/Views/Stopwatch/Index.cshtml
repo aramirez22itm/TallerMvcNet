@@ -75,7 +75,7 @@
             timer = setInterval(() => {
                 seconds++;
                 updateDisplay();
-            }, 1000); // Actualiza cada segundo (puedes bajarlo a 10 para centésimas)
+            }, 1000); // Actualiza cada segundo (se puede bajar a 10 para centésimas)
         }
     }
 
@@ -95,12 +95,12 @@
     }
 
     function updateDisplay() {
-        // Matemáticas para convertir segundos a HH:MM:SS
+        // Calculo para convertir segundos a HH:MM:SS
         const hrs = Math.floor(seconds / 3600);
         const mins = Math.floor((seconds % 3600) / 60);
         const secs = seconds % 60;
 
-        // Formateo para que siempre tenga 2 dígitos (01, 02...)
+        // Formato para que siempre tenga 2 dígitos (01, 02...)
         const formatted =
             (hrs < 10 ? "0" + hrs : hrs) + ":" +
             (mins < 10 ? "0" + mins : mins) + ":" +
@@ -110,7 +110,7 @@
     }
 
     function prepareSave() {
-        // Antes de enviar el formulario, copiamos el tiempo actual al input oculto
+        // Antes de enviar el formulario, copia el tiempo actual al input oculto
         const currentTime = document.getElementById("display").innerText;
         document.getElementById("timeInput").value = currentTime;
     }

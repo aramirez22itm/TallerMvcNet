@@ -21,13 +21,13 @@ namespace TallerMvcNet.Controllers
 
             string charPool = "";
 
-            // Vamos sumando al 'saco' de letras según lo que marcó el usuario
+            // Vamos sumando a la bolsa de letras según lo que marcó el usuario
             if (model.IncludeLowercase) charPool += lower;
             if (model.IncludeUppercase) charPool += upper;
             if (model.IncludeNumbers) charPool += number;
             if (model.IncludeSymbols) charPool += symbol;
 
-            // Si no marcó nada, le damos error
+            // Si no marcó nada, muestra error
             if (string.IsNullOrEmpty(charPool))
             {
                 model.GeneratedPassword = "¡Debes seleccionar al menos una opción!";
@@ -41,7 +41,7 @@ namespace TallerMvcNet.Controllers
 
             for (int i = 0; i < model.Length; i++)
             {
-                // Elegimos una letra al azar del 'saco'
+                // Elegimos una letra al azar de las posibles
                 result[i] = charPool[random.Next(charPool.Length)];
             }
 

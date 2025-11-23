@@ -13,7 +13,7 @@ namespace TallerMvcNet.Controllers
 
         public IActionResult Index()
         {
-            // Mostramos los récords ordenados por mayor puntaje
+            // Se Muestran los récords ordenados por mayor puntaje
             return View(_scores.OrderByDescending(s => s.Score).ToList());
         }
 

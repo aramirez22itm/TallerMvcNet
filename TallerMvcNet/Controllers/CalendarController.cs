@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TallerMvcNet.Models;
 using System.Linq;
-using System.Collections.Generic; // Agregado por seguridad
+using System.Collections.Generic; 
 
 namespace TallerMvcNet.Controllers
 {
@@ -12,7 +12,7 @@ namespace TallerMvcNet.Controllers
         // PANTALLA PRINCIPAL: Lista y Formulario de Agregar
         public IActionResult Index()
         {
-            // Ordenamos por fecha y luego por hora
+            // Ordena por fecha y luego por hora
             return View(_events.OrderBy(e => e.Date).ThenBy(e => e.Time).ToList());
         }
 
@@ -31,9 +31,8 @@ namespace TallerMvcNet.Controllers
             return RedirectToAction("Index");
         }
 
-        // --- FUNCIONES PARA EDITAR ---
 
-        // 1. Cargar la pantalla de edición
+        // Cargar la pantalla de edición
         public IActionResult Edit(int id)
         {
             var evt = _events.FirstOrDefault(e => e.Id == id);
@@ -42,7 +41,7 @@ namespace TallerMvcNet.Controllers
             return View(evt);
         }
 
-        // 2. Guardar los cambios
+        // Guardar los cambios
         [HttpPost]
         public IActionResult Update(CalendarEvent evt)
         {

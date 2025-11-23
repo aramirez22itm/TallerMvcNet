@@ -48,10 +48,10 @@ namespace TallerMvcNet.Controllers
             var recipe = _recipes.FirstOrDefault(r => r.Id == id);
             if (recipe != null)
             {
-                recipe.IsSaved = !recipe.IsSaved; // Invertimos el valor (true a false, o viceversa)
+                recipe.IsSaved = !recipe.IsSaved; // Invertimos el valor
             }
 
-            // Volvemos a la lista (manteniendo filtros sería ideal, pero por simplicidad volvemos al inicio)
+            // Esta línea es la clave: siempre debe devolver algo
             return RedirectToAction("Index");
         }
     }

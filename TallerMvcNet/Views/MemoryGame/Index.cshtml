@@ -18,13 +18,13 @@
         justify-content: center;
         align-items: center;
         font-size: 2rem;
-        color: transparent; /* Ocultamos el emoji */
+        color: transparent; /* Oculta el emoji */
         transition: transform 0.3s;
     }
 
         .card-game.flipped {
             background-color: #ecf0f1;
-            color: #2c3e50; /* Mostramos el emoji */
+            color: #2c3e50; /* Muestra el emoji */
             transform: rotateY(180deg);
         }
 
@@ -102,7 +102,7 @@
     let time = 0;
     let timerInterval = null;
 
-    // Al cargar la página, iniciamos
+    // Al cargar la página, inicia
     document.addEventListener("DOMContentLoaded", restartGame);
 
     function restartGame() {
@@ -139,7 +139,7 @@
 
     function flipCard() {
         if (lockBoard) return;
-        if (this === firstCard) return; // No puedes clicar la misma carta dos veces
+        if (this === firstCard) return; // No se puede clicar la misma carta dos veces
 
         this.classList.add("flipped");
 

@@ -5,10 +5,10 @@ namespace TallerMvcNet.Controllers
 {
     public class TipsController : Controller
     {
-        // GET: Muestra la calculadora vacía o con valores iniciales
+        // Muestra la calculadora vacía o con valores iniciales
         public IActionResult Index()
         {
-            // Iniciamos con valores por defecto para que no se vea feo
+            // Iniciamos con valores por defecto
             var model = new TipModel
             {
                 BillAmount = 0,
@@ -25,7 +25,7 @@ namespace TallerMvcNet.Controllers
             model.TipAmount = model.BillAmount * (model.TipPercentage / 100);
             model.TotalAmount = model.BillAmount + model.TipAmount;
 
-            // Devolvemos la misma vista pero con los resultados llenos
+            // Devuelve la misma vista pero con los resultados llenos
             return View("Index", model);
         }
     }
